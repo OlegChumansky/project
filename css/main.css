@@ -76,11 +76,12 @@ h6 {
     height: calc(100% - 2px);
 }
 
-/* НОВОЕ МЕНЮ */
+/* НОВАЯ РАЗМЕТКА */
 
 .left-menu {
     box-sizing: border-box;
     position: fixed;
+    margin-top: 45px;
     top: 0;
     z-index: -1;
     height: 100%;
@@ -101,6 +102,7 @@ h6 {
 .content {
     height: calc(90vh - 65px);
     padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
 }
 
@@ -111,6 +113,24 @@ h6 {
     border-top: 5px solid #ffffff;
     background: linear-gradient(to bottom, #F0F9FF, #E7F8FF);
     box-sizing: border-box;
+}
+
+/*НОВОЕ МЕНЮ*/
+
+.left-menu ul {
+
+}
+
+.left-menu ul li {
+
+}
+
+.left-menu ul li a {
+    color: black;
+}
+
+.left-menu:hover ul li a {
+
 }
 
 /*МЕНЮ*/

@@ -25,26 +25,23 @@ if (!AUTH::isAuth()) header('Location:login.php');
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/profile.css">
   <link rel="stylesheet" href="css/message.css">
   <title><?= $_SESSION['user_name'] . " " . $_SESSION['user_family']; ?></title>
 </head>
 <body>
 
 <div class="wrap">
-  <div class="profile">
-    <div class="profile-header">
-        <?php include 'block/header.php'; ?>
-    </div>
+  <div class="header"><?php include 'block/header.php' ?></div>
 
-    <div class="profile-body">
-      <div class="profile-body-menu">
-          <?php include 'block/menu.php'; ?>
-      </div>
-      <div class="profile-body-info">
+  <div class="left-menu"><?php include 'block/menu.php' ?></div>
+
+  <div class="main">
+    <div class="content">
+
+      <div>
         <div class="warning">Раздел в разработке</div>
-        <div class="user-info">
-          
+        <div>
+
           <table border="1">
             <caption>Данные видны только вам</caption>
             <tr>
@@ -80,10 +77,8 @@ if (!AUTH::isAuth()) header('Location:login.php');
       </div>
     </div>
 
-    <div class="profile-footer">
-
-    </div>
   </div>
+  <div class="footer"></div>
 </div>
 
 </body>

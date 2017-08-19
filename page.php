@@ -39,10 +39,6 @@ if (isset($_GET['logout'])) AUTH::logout();
 
   </div>
 
-<!--  <div class="footer">-->
-<!--    <hr>-->
-<!--  </div>-->
-
 </div>
 
 </body>

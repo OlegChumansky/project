@@ -1,4 +1,4 @@
-<ul class="menu">
+<ul>
     <li><a href="../profile.php">Мой профиль</a></li>
     <li><a href="../class.php">Мой класс</a></li>
     <li><a href="../class-news.php">Новости</a></li>
